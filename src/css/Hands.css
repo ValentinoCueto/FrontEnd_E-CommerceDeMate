@@ -1,0 +1,35 @@
+.container-hands {
+  align-content: center;
+}
+
+.left-hand {
+  max-width: 443px;
+  height: auto;
+  position: relative;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.right-hand {
+  max-width: 443px; 
+  height: auto;
+  position: relative;
+  animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

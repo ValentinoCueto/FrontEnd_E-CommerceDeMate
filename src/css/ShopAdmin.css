@@ -1,0 +1,71 @@
+.product-cardadmin {
+  width: 220px;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-cardadmin img {
+  height: 200px; 
+  object-fit: cover;
+}
+
+.product-cardadmin h4 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  border-top: 2px solid black;
+}
+
+.product-cardadmin p {
+  color: #198754;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.product-cardadmin button {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.product-cardadmin:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.save-changes-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+.edit-form {
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 85%;
+  margin-bottom: 3px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
